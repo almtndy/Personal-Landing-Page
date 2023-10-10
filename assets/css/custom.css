@@ -1,0 +1,17 @@
+/* services section css */
+.img-icon{
+    width: 50px;
+  }
+
+.skills-box.card {
+    
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    box-shadow: 0 0 24px 0 rgba(193, 24, 24, 0.12);
+    text-align: center;
+}
+
+.skills-box:hover {
+    border: 2px solid darkred;
+}
