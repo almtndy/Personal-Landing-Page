@@ -18,25 +18,36 @@
 
 /* interests and hobbies section css */ 
 .int-hob {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(254, 212, 212, 0.5);
-    transition: background-color 0.3s;
-    padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(254, 212, 212, 0.5);
+  transition: background-color 0.3s;
+  padding: 20px;
+  text-align: center;
+}
+
+.int-hob:hover {
+  background: rgba(255, 255, 255, 0.162);
+  color: rgb(0, 0, 0);
+  border: 1px solid darkred;
+}
+
+.int-hob p {
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .int-hob {
+    padding: 10px; /* Reduce padding */
+    flex-direction: column; /* Stack items in a column on smaller screens */
     text-align: center;
-  }
-  
-  .int-hob:hover {
-    background: rgba(255, 255, 255, 0.162);
-    color: rgb(0, 0, 0);
-    border: 1px solid darkred;
   }
 
   .int-hob p {
-    display: flex;
-    align-items: center;
-    margin: 0;
+    font-size: 14px; /* Reduce font size */
   }
+}
+
   
   
