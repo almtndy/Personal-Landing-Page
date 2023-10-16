@@ -523,6 +523,8 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 15px;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -601,11 +603,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid darkred;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: darkred;
 }
 
 .portfolio-details .portfolio-info {
